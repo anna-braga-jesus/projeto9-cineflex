@@ -9,7 +9,7 @@ import './styles.css'
 
 export default function Movies(){
 
-    const API = "https://mock-api.driven.com.br/api/v8/cineflex/movies/"
+    const API = "https://mock-api.driven.com.br/api/v7/cineflex/movies/"
     
     const [movies, setMovies] = useState([]);
     
